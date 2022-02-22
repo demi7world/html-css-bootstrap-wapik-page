@@ -1,0 +1,297 @@
+// S T A R T   T R I A L
+.startTrial {
+    height: 600px;
+    box-sizing: border-box;
+    padding: 300px 200px 0;
+    background: no-repeat center;
+    background-image: 
+    linear-gradient(to top, rgba(#2d6e70, 0.7), rgba(#2d6e70, 0.7)),
+    url('../assets/img/city.png');
+    background-size: cover;
+    color: white;
+    font-family: 'Roboto-Regular';
+    &__wrapper {
+        margin-top: -115px;
+    }
+    &__heading {
+        font-family: 'Roboto-Light';
+        font-size: 50px;
+        line-height: 60px;
+        text-align: center;
+        width: 75%;
+    }
+    &__button {
+        width: 230px;
+        height: 50px;
+        background-color: #6fb048;
+        border-radius: 2px;
+        font-family: 'Montserrat-Regular';
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+}
+
+
+// A B O U T
+.about {
+    padding: 75px 220px 95px;
+    & .sectionHeading {
+        &__divider {
+            margin-bottom: 35px;
+        }
+        &__description {
+            width: 65%;
+            margin-bottom: 75px;
+        }
+    }
+}
+
+// T E A M
+.team {
+    background: #eef1ec;
+    padding: 70px 255px 110px;
+    & .sectionHeading {
+        &__divider {
+            margin-bottom: 35px;
+        }
+        &__description {
+            width: 70%;
+            margin-bottom: 65px;
+        }
+    }
+    & .row {
+        gap: 40px;
+    }
+}
+
+.member {
+    width: 300px;
+    &__photo {
+        width: 300px;
+        height: 180px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 13px;
+        &1 {
+            background-image: url('../assets/img/joyce.png');
+        }
+        &2 {
+            background-image: url('../assets/img/angela.png');
+        }
+        &3 {
+            background-image: url('../assets/img/james.png');
+        }
+    }
+    & p {
+        margin: 0;
+    }
+    &__name {
+        font-family: 'Roboto-Medium';
+        font-size: 15px;
+        line-height: 22px;
+        color: #0f5f5c;
+    }
+}
+
+
+// D O W N L O A D
+.dlAbout {
+    padding: 0 220px;
+    height: 200px;
+    box-sizing: border-box;
+    background: no-repeat center;
+    background-image: 
+    linear-gradient(to top, rgba(#6fb048, 0.95), rgba(#6fb048, 0.95)),
+    url('../assets/img/download.png');
+    background-size: cover;
+    &__title {
+        font-family: 'Roboto-Light';
+        font-size: 28px;
+        color: #fff;
+    }
+    &__text {
+        font-size: 15px;
+        color: #fff;
+    }
+    &__button {
+        width: 285px;
+        height: 42px;
+        background-color: #49732f;
+        border-radius: 2px;
+        font-family: 'Montserrat-Regular';
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    & .col:first-child {
+        width: 70%;
+    }
+    & .col:last-child {
+        width: 30%;
+    }
+}
+
+
+
+// M E D I A 
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1199.98px) {
+    // S T A R T   T R I A L
+.startTrial {
+    padding: 250px 100px 0;
+    height: 500px;
+}
+// A B O U T
+.about {
+    padding: 75px 120px 85px;
+}
+// T E A M
+.team {
+    padding: 70px 120px 90px;
+}
+// D O W N L O A D
+.dlAbout {
+    padding: 0 120px;
+}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+// S T A R T   T R I A L
+.startTrial {
+    padding: 250px 55px 0;
+    height: 500px;
+}
+// A B O U T
+.about {
+    padding: 75px 60px 85px;
+}
+// T E A M
+.team {
+    padding: 70px 60px 90px;
+}
+// D O W N L O A D
+.dlAbout {
+    padding: 0 72px;
+    & .row {
+        flex-direction: column!important;
+        width: 100%;
+    }
+    & .col {
+        padding: 0;
+        width: 100%!important;
+        &:last-child {
+            justify-content: start!important;
+        }
+    }
+}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+// S T A R T   T R I A L
+.startTrial {
+    padding: 200px 35px 0;
+    height: 400px;
+    &__heading {
+        font-size: 40px;
+        line-height: 50px;
+        width: 90%;
+    }
+}
+// A B O U T
+.about {
+    padding: 55px 40px 45px;
+    & .sectionHeading {
+        &__description {
+            width: 100%;
+        }
+    }
+    & .row-cols-3 {
+        flex-direction: row;
+    }
+}
+// T E A M
+.team {
+    padding: 50px 40px 60px;
+    & .sectionHeading {
+        &__description {
+            width: 100%;
+        }
+    }
+    & .member {
+        padding: 0!important;
+    } 
+}
+// D O W N L O A D
+.dlAbout {
+    padding: 0 52px;
+    & .row {
+        flex-direction: column!important;
+        width: 100%;
+    }
+    & .col {
+        padding: 0;
+        width: 100%!important;
+        &:last-child {
+            justify-content: start!important;
+        }
+    }
+}
+}
+
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    // S T A R T   T R I A L
+.startTrial {
+    padding: 200px 15px 0;
+    height: 360px;
+    &__heading {
+        font-size: 24px;
+        line-height: 34px;
+        width: 90%;
+    }
+}
+// A B O U T
+.about {
+    padding: 25px 20px 10px;
+    & .sectionHeading {
+        padding: 0;
+        &__divider {
+            margin: 12px 0;
+        }
+    }
+}
+// T E A M
+.team {
+    padding: 30px 20px 30px;
+    & .sectionHeading {
+        padding: 0;
+        &__divider {
+            margin: 12px 0;
+        }
+    }
+}
+.member {
+    width: 260px;
+    &__photo {
+        width: 100%;
+    }
+}
+// D O W N L O A D
+.dlAbout {
+    padding: 32px;
+    height: fit-content;
+    & .row {
+        width: 100%!important;
+    }
+    &__title {
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+}
+}
+

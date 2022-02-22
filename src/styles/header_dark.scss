@@ -1,0 +1,58 @@
+.headerD {
+    position: static;
+}
+
+.navigationD {
+    position: static;
+    height: fit-content;
+}
+
+.navlinkD {
+    color: #83a7a5; 
+    opacity: 1;
+    &:visited {
+        color: #83a7a5; 
+        opacity: 1;
+    }
+    &:hover, &:active {
+        opacity: 1;
+        color: #0f5f5c;
+    }
+}
+
+.nav-link.navlinkD.active {
+    opacity: 1;
+    color: #0f5f5c;
+}
+
+
+.brandD {
+    color: #0f5f5c;
+    opacity: 1;
+    &:visited {
+        color: #0f5f5c;
+        opacity: 1;
+    }
+    &__divider {
+        background: #83a7a5;
+        opacity: 0.5;
+    }
+}
+
+.telephoneD {
+    color: #83a7a5;
+} 
+
+.startButtonD {
+    background-color: #6fb048;
+    &:hover, &:focus {
+        background-color: #6fb048;
+    }
+}
+
+.burger {
+    &__part {
+        background-color: #83a7a5;
+        opacity: 1;
+    }
+}

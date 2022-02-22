@@ -1,0 +1,83 @@
+// N A V
+.navigationP {
+    background: #eef1ec;
+    &__wrapper {
+        border-bottom: 1px solid rgba(#83a7a5, 0.5);
+    }
+}
+
+// P R I C I N G
+.start {
+    padding: 55px 220px 60px;
+    background: #eef1ec;
+    &Heading {
+        text-align: center;
+        &__title {
+            font-family: 'Roboto-Light';
+            font-size: 32px;
+            color: #0f5f5c;
+        }
+        &__description {
+            font-size: 15px;
+            margin: -10px 0 40px;
+        }
+    }
+}
+
+.limited {
+    margin: -50px 0 0;
+}
+
+.includedServices {
+    padding: 70px 220px 80px;
+}
+
+
+// M E D I A
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    // P R I C I N G
+.start {
+    padding: 55px 120px 60px;
+}
+.includedServices {
+    padding: 70px 120px 80px;
+}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+// P R I C I N G
+.start {
+    padding: 45px 60px 50px;
+}
+.includedServices {
+    padding: 35px 60px 40px;
+}
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+// P R I C I N G
+.start {
+    padding: 35px 40px 40px;
+}
+.includedServices {
+    padding: 35px 40px 40px;
+}
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    // P R I C I N G
+.start {
+    padding: 35px 20px 40px;
+    &__title {
+        font-size: 26px;
+    }
+}
+.includedServices {
+    padding: 35px 20px 40px;
+}
+}

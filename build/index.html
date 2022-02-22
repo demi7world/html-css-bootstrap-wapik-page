@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header_bright.css">
+    <title>Wapik</title>
+</head>
+<body>
+   <!--   H E A D E R   -->
+   <header class="header">
+     <!--   W E L C O M E   -->
+   <section class="welcome">
+     <div class="container-fluid">
+       <div class="welcome__wrapper col-sm-12 col-lg-6 d-flex flex-column align-items-start">
+         <h1 class="welcome__heading">Welcome to Wapik</h1>
+         <p class="welcome__description">
+          Wapik is multipurpose template, with modern and smart design. Wapik 
+          is perfect template for you!
+         </p>
+         <button class="welcome__button">Learn More</button>
+       </div>
+     </div>
+   </section>
+     <!--   N A V B A R   -->
+    <div class="navigation w-100">
+      <nav class="navbar navbar-expand-md">
+        <div class="navigation__wrapper container-fluid">
+         <!--brand name-->
+         <a class="navbar-brand brand d-flex align-items-center" href="./index.html">
+           Wapik
+         </a>
+         <!--phone number-->
+         <div class="nav d-flex align-items-center">
+           <div class="brand__divider"></div>
+           <img src="./assets/img/phoneWhite.svg" width="14" height="14" alt="Phone us" />
+           <a class="nav-link navlink telephone" href="tel:+622025550117">+ 62 202 555 0117</a>
+         </div>
+         <!--toggler button-->
+        <button class="burger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="d-flex flex-column justify-content-between">
+            <div class="burger__part"></div>
+            <div class="burger__part"></div>
+            <div class="burger__part"></div>
+          </div>
+        </button>
+         <!--collapsed area-->
+         <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+           <ul class="navbar-nav align-items-center mr-auto">
+             <li class="nav-item">
+               <a class="nav-link navlink active" aria-current="page" href="./index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link navlink" aria-current="page" href="./about.html">About us</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link navlink" aria-current="page" href="./pricing.html">Pricing</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link navlink" aria-current="page" href="./contact.html">Contact</a>
+             </li>
+             <li class="nav-item">
+               <button class="startButton">Get started</button>
+             </li>
+           </ul>
+         </div>
+        </div>
+      </nav>
+     </div>
+   </header>
+   <main>
+     <!--   F E A T U R E S   -->
+   <section class="features">
+    <div class="container">
+      <!--section heading-->
+      <div class="sectionHeading d-flex flex-column align-items-center">
+        <h2 class="sectionHeading__title">Best of our features</h2>
+        <div class="sectionHeading__divider"></div>
+        <p class="sectionHeading__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+         Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+      </div>
+      <div class="row row-cols-3">
+        <!--service item-->
+        <article class="service col d-flex flex-column align-items-center">
+          <div class="service__logo justify-content-center align-items-center">
+            <img src="./assets/img/ionicons.svg" alt="Ionicons">
+          </div>
+          <div class="service__text">
+            <h3 class="service__title">Ionicons</h3>
+            <p class="service__description">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</p>
+          </div>
+        </article>
+        <!--service item-->
+        <article class="service col d-flex flex-column align-items-center">
+         <div class="service__logo justify-content-center align-items-center">
+           <img src="./assets/img/creative.svg" alt="Creative design">
+         </div>
+         <div class="service__text">
+          <h3 class="service__title">Creative Design</h3>
+          <p class="service__description">Maecenas faucibus mollis interdum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+         </div>
+       </article>
+       <!--service item-->
+       <article class="service col d-flex flex-column align-items-center">
+         <div class="service__logo justify-content-center align-items-center">
+           <img src="./assets/img/ps.svg" alt="Photoshop">
+         </div>
+         <div class="service__text">
+          <h3 class="service__title">Photoshop and Sketch</h3>
+          <p class="service__description">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+         </div>
+       </div>
+      </article>
+    </div>
+      <!--divider-->
+      <div class="divider d-flex flex-column justify-content-center align-items-center">
+        <div class="divider__vertical"></div>
+        <div class="divider__horizontal"></div>
+      </div>
+      <!--offers-->
+      <div class="features__offers1stRow row row-cols-2">
+        <!--offers item-->
+        <article class="offer col">
+          <div class="offer__heading d-flex align-items-center">
+            <div class="offer__logo d-flex justify-content-center align-items-center">
+              <img src="./assets/img/globe.svg">
+            </div>
+            <h3 class="offer__title">Cross Browser Compatibility</h3>
+          </div>
+            <p class="offer__description">
+             Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus.
+            </p>
+        </article>
+        <!--offers item-->
+        <article class="offer col">
+         <div class="offer__heading d-flex align-items-center">
+           <div class="offer__logo d-flex justify-content-center align-items-center">
+             <img src="./assets/img/bulb.svg">
+           </div>
+           <h3 class="offer__title">Creative Idea</h3>
+         </div>
+           <p class="offer__description">
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula porta felis euismod semper.
+           </p>
+       </article>
+      </div>
+      <div class="features__offers2ndRow row row-cols-2">
+        <!--offers item-->
+       <article class="offer col">
+         <div class="offer__heading d-flex align-items-center">
+           <div class="offer__logo d-flex justify-content-center align-items-center">
+             <img src="./assets/img/wand.svg">
+           </div>
+           <h3 class="offer__title">Pixel Perfect</h3>
+         </div>
+           <p class="offer__description">
+             Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </p>
+       </article>
+       <!--offers item-->
+       <article class="offer col">
+         <div class="offer__heading d-flex align-items-center">
+           <div class="offer__logo d-flex justify-content-center align-items-center">
+             <img src="./assets/img/cloud.svg">
+           </div>
+           <h3 class="offer__title">Free Forever and Ever</h3>
+         </div>
+           <p class="offer__description">
+             Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus.
+           </p>
+       </article>
+      </div>
+    </div>
+  </section>
+  <!--   P R E W I E W   -->
+  <section class="preview">
+    <!--section heading-->
+    <div class="sectionHeading d-flex flex-column align-items-center">
+     <h2 class="sectionHeading__title">Looking for the perfect template to use?</h2>
+     <div class="sectionHeading__divider"></div>
+     <p class="sectionHeading__description">Donec id elit non mi porta gravida at eget metus.</p>
+   </div>
+   <div class="container">
+     <div class="row row-cols-2">
+       <div class="preview__image col d-flex justify-content-center align-items-end">
+         <img src="./assets/img/hand_with_phone.png" alt="Preview">
+       </div>
+       <div class="preview__text col d-flex flex-column justify-content-center">
+         <h4 class="preview__title">Responsive Ready</h4>
+         <p class="preview__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper.</p>
+         <ul class="preview__list">
+           <li class="preview__advantage d-flex align-items-center"><span>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</span></li>
+           <li class="preview__advantage d-flex align-items-center"><span>Donec id elit non mi porta gravida at eget metus.</span></li>
+         </ul>
+       </div>
+     </div>
+   </div>
+  </section>
+  <!--   T E S T I M O N I A L S   -->
+  <section class="testimonials">
+   <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <!--testimonial item-->
+       <div class="carousel-item active">
+         <div class="testimonial">
+           <div class="row row-cols-2">
+             <div class="col d-flex flex-column justify-content-center">
+               <div class="testimonial__text">
+                 <p class="testimonial__mention">This theme is beautiful, elegant and easy to customize. I’ve been able to build an amazing site in just a minute. Thank you very much for creating this impressive template!</p>
+                 <p class="testimonial__name">Valeria Boltneva</p>
+                 <p class="testimonial__position">Director of Acme.Inc</p>
+               </div>
+             </div>
+             <div class="col d-flex justify-content-end">
+               <div class="testimonial__image"></div>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!--testimonial item-->
+       <div class="carousel-item">
+         <div class="testimonial">
+           <div class="row row-cols-2">
+             <div class="col d-flex flex-column justify-content-center">
+               <div class="testimonial__text">
+                 <p class="testimonial__mention">This theme is beautiful, elegant and easy to customize. I’ve been able to build an amazing site in just a minute. Thank you very much for creating this impressive template!</p>
+                 <p class="testimonial__name">Valeria Boltneva</p>
+                 <p class="testimonial__position">Director of Acme.Inc</p>
+               </div>
+             </div>
+             <div class="col d-flex justify-content-end">
+               <div class="testimonial__image"></div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+  </section>
+  <!--   A D V A N T A G E S   -->
+  <section class="advantages d-flex align-items-center">
+    <div class="col-xl-6 col-md-8 d-flex flex-column justify-content-center">
+      <h2 class="advantages__headline">Built with High Attention to Details</h2>
+      <p class="advantages__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante</p>
+    </div>
+  </section>
+  <!--   P R I C I N G   -->
+  <section class="pricing">
+    <!--section heading-->
+    <div class="sectionHeading d-flex flex-column align-items-center">
+     <h2 class="sectionHeading__title">Pricing & Plan</h2>
+     <div class="sectionHeading__divider"></div>
+     <p class="sectionHeading__description w-100">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.<br>
+       Donec id elit non mi porta gravida at eget metus.</p>
+   </div>
+   <!--plans-->
+   <div class="plan__row row justify-content-center">
+     <!--plan item-->
+     <article class="plan col-lg-3 col-sm-4">
+       <h4 class="plan__name">Basic</h4>
+       <p class="plan__price">$199</p>
+       <p class="plan__term">/month</p>
+       <ul class="plan__services">
+         <li>Justo Fringilla</li>
+         <li>Mollis Sit Nullam</li>
+         <li>Ultricies Purus Amet</li>
+         <li>Cras Inceptos</li>
+       </ul>
+       <button class="plan__button">Select Plan</button>
+     </article>
+     <!--plan item-->
+     <article class="plan col-lg-3 col-sm-4">
+       <h4 class="plan__name">Plus</h4>
+       <p class="plan__price">$399</p>
+       <p class="plan__term">/month</p>
+       <ul class="plan__services">
+         <li>Justo Fringilla</li>
+         <li>Mollis Sit Nullam</li>
+         <li>Ultricies Purus Amet</li>
+         <li>Cras Inceptos</li>
+       </ul>
+       <button class="plan__button">Select Plan</button>
+     </article>
+     <!--plan item-->
+     <article class="plan col-lg-3 col-sm-4">
+       <h4 class="plan__name">Premium</h4>
+       <p class="plan__price">$699</p>
+       <p class="plan__term">/month</p>
+       <ul class="plan__services">
+         <li>Justo Fringilla</li>
+         <li>Mollis Sit Nullam</li>
+         <li>Ultricies Purus Amet</li>
+         <li>Cras Inceptos</li>
+       </ul>
+       <button class="plan__button">Select Plan</button>
+     </article>
+   </div>
+   <!--all services included-->
+   <section>
+     <div class="d-flex flex-column align-items-center">
+       <h3 class="included__headline">Included with all Plans</h3>
+       <div class="sectionHeading__divider"></div>
+     </div>
+     <div class="included row row-cols-3">
+       <!--included item-->
+       <div class="col">
+         <ul class="included__item">
+           <li><span>Maecenas faucibus mollis interdum</span></li>
+           <li><span>Cras justo odio, dapibus ac facilisis</span></li>
+           <li><span>Fringilla Mattis</span></li>
+         </ul>
+       </div>
+       <!--included item-->
+       <div class="col">
+         <ul class="included__item">
+           <li><span>Vestibulum id ligula porta felis euismod</span></li>
+           <li><span>Duis mollis, est non commodo luctus</span></li>
+           <li><span>Integer posuere</span></li>
+         </ul>
+       </div>
+       <!--included item-->
+       <div class="col">
+         <ul class="included__item">
+           <li><span>Nulla vitae elit libero, a pharetra augue</span></li>
+           <li><span>Curabitur blandit tempus porttitor</span></li>
+           <li><span>Nullam quis risus eget urna mollis</span></li>
+         </ul>
+       </div>
+     </div>
+   </section>
+   <!--support-->
+   <section class="support d-flex flex-column align-items-center">
+     <div class="support__heading d-flex flex-column align-items-center">
+       <img src="./assets/img/support.svg">
+       <h3 class="support__headline">Need Help?</h3>
+       <div class="support__divider">
+       </div>
+     </div>
+     <p class="support__text">Contact our Customer Support that is always ready to help you with any possible
+       questions, problems or information.</p>
+     <p class="support__email">support@wapik.com</p>
+   </section>
+  </section>
+  <!--   D O W N L O A D   -->
+  <section class="download d-flex align-items-center">
+    <div class="row row-cols-auto w-100">
+      <div class="col d-flex flex-column justify-content-center">
+        <h3 class="download__title">Do You Like Wapik? Download it Now</h3>
+        <p class="download__text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+      </div>
+      <div class="col d-flex align-items-center justify-content-end p-0 m-0">
+        <button class="download__button">download now! - FREE forever</button>
+      </div>
+    </div>
+  </section>
+   </main>
+   <!--   F O O T E R   -->
+  <footer class="footer">
+    <div class="row row-cols-4">
+      <div class="col d-flex flex-column">
+        <span class="footer__logo">wapik</span>
+        <p>@: <b>hi@wapik.com</b></p>
+        <p>p: +62 202 555 0117</p>
+        <p>a: 610 Overlook Circle Suite 323<br>
+           Kalamazoo, MI 49009</p>
+      </div>
+      <div class="col d-flex flex-column">
+       <span class="footer__category">Company</span>
+       <ul>
+         <li><a href="./index.html">Home</a></li>
+         <li><a href="./about.html">About Us</a></li>
+         <li><a href="./pricing.html">Pricing</a></li>
+         <li><a href="./contact.html">Contact Us</a></li>
+       </ul>
+     </div>
+     <div class="col d-flex flex-column">
+       <span class="footer__category">Others</span>
+       <ul>
+         <li><a href="#">Help & Support</a></li>
+         <li><a href="#">Privacy Policy</a></li>
+         <li><a href="#">Terms</a></li>
+         <li><a href="#">Sitemap</a></li>
+       </ul>
+     </div>
+     <div class="col d-flex flex-column">
+       <span class="footer__category">Newsletter</span>
+       <p>Subscribe to our newsletter and get all
+         the cool news</p>
+         <form class="d-flex align-items-center justify-content-between w-100">
+           <input type="email" placeholder="Enter Email" required>
+           <button type="submit"></button>
+         </form>
+     </div>
+    </div>
+    <!--bottom-->
+    <div class="footer__bottom row row-cols-2">
+      <div class="col d-flex align-items-center">All rights reserved 2015.</div>
+      <div class="col d-flex justify-content-end">
+        <a href="#" class="footer__media footer__twitter"></a>
+        <a href="#" class="footer__media footer__facebook"></a>
+        <a href="#" class="footer__media footer__insta"></a>
+        <a href="#" class="footer__media footer__dribble"></a>
+        <a href="#" class="footer__media footer__github"></a>
+      </div>
+    </div>
+  </footer>
+   <!--   S C R I P T S   -->
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
